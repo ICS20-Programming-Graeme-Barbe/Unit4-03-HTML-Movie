@@ -15,7 +15,7 @@ function submit() {
 		document.getElementById('rating').innerHTML = "You need to input your age";
 	} else if (userAge >= 17) {
 		//If user can see a R rated movie 
-		document.getElementById('rating').innerHTML = "hbYou can go see an R rated movie with no supervision";
+		document.getElementById('rating').innerHTML = "You can go see an R rated movie with no supervision";
 	} else if (userAge >= 13) {
 		//If user can see a PG-13 movie 
 		document.getElementById('rating').innerHTML = "You can go see a PG-13 movie with no supervision";
